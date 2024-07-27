@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+/* share styles */
+.primary-btn {
+    background-color: #E6533C;
+    color: #FFFFFF;
+    padding: 16px 40px;
+    border-radius: 42px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.primary-text {
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+}
+.primary-text2 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+.heading-p {
+    color: #ffffff86;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+}
+.img-p {
+    color: #ffffff86;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+}
+.text-p {
+    color: rgb(177, 177, 177);
+    font-size: 14px;
+    line-height: 24px;
+}
+/* header style start */
+header {
+    background: linear-gradient(to top, #111111 10%, #252525 50%, #111111 100%);
+}
+.logo {
+    text-decoration: none;
+    color: #E6533C;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 36px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 200px;
+}
+#bars {
+    color: #FFFFFF;
+    display: none;
+}
+nav ul {
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.100);
+    border-radius: 50px;
+    margin: 0;
+    padding: 10px 3px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#home {
+    background-color: #E6533C;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.nav-menu {
+    padding: 8px 30px;
+    font-weight: 400;
+}
+
+/* header style end */
+
+
+
+
+/* Mobile phone responsive */
+@media screen and (max-width: 576px) {
+    /* header start */
+    .hero-sc,
+    .circle-img,
+    .run-sc,
+    .run-inner {
+        flex-direction: column;
+    }
+    nav {
+        padding: 25px 20px;
+    }
+    .hero-text {
+        width: 100%;
+    }
+    nav ul,
+    .club {
+        display: none;
+    }
+    #bars {
+        display: block;
+        font-size: 24px;
+    }
+    /* header end */
+}

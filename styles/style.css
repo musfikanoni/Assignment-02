@@ -16,7 +16,7 @@ body {
 }
 /* share styles */
 .primary-btn {
-    background-color: #E6533C;
+    background-color: #39e100;
     color: #FFFFFF;
     padding: 16px 40px;
     border-radius: 42px;
@@ -60,7 +60,7 @@ header {
 }
 .logo {
     text-decoration: none;
-    color: #E6533C;
+    color: #39e100;
     font-style: italic;
     font-weight: 800;
     font-size: 36px;
@@ -91,7 +91,7 @@ nav ul li a {
     font-size: 18px;
 }
 #home {
-    background-color: #E6533C;
+    background-color: #39e100;
     border-radius: 30px;
     padding: 8px 20px;
     font-weight: 600;
@@ -172,7 +172,7 @@ nav ul li a {
     backdrop-filter: blur(8px);
 }
 .circle {
-    background-color: #E6533C;
+    background-color: #39e100;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -376,13 +376,14 @@ td {
 .meet-bg {
     background-color: #222222;
     border-radius: 18px;
-    padding: 23px 0px;
+    padding-bottom: 20px;
 }
 .meet-all-img {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    padding-left: 23px;
-    row-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
 }
 .box {
     position: relative;
@@ -432,13 +433,13 @@ td {
     width: 50%;
 }
 .box-container {
-    border: 4px solid #707276;
+    background-color: #222222;
+    border: 1px solid #39e100;
     border-radius: 10px;
     padding: 1rem;
-    /* height: 200px; */
 }
 .box-container a {
-    color: #E6533C;
+    color: #39e100;
     text-decoration: none;
 }
 .box-card {
@@ -470,7 +471,7 @@ td {
     background-color: rgba(255, 255, 255, 0.10);
     padding: 22px 0px;
     color: #707276;
-    border: 2px solid #E6533C;
+    border: 2px solid #39e100;
     font-size: 16px;
     padding-left: 20px;
     outline: none;
@@ -484,7 +485,7 @@ td {
     background-color: rgba(255, 255, 255, 0.10);
     padding: 22px 0px;
     color: #707276;
-    border: 2px solid #E6533C;
+    border: 2px solid #39e100;
     font-size: 16px;
     padding-left: 20px;
     outline: none;
@@ -497,7 +498,7 @@ td {
     width: 90%;
     background-color: rgba(255, 255, 255, 0.10);
     color: #707276;
-    border: 2px solid #E6533C;
+    border: 2px solid #39e100;
     font-size: 16px;
     outline: none;
 }
@@ -526,7 +527,7 @@ footer {
     width: 50%;
 }
 .ft-1 h3 {
-    color: #E6533C;
+    color: #39e100;
     font-size: 60px;
     font-style: italic;
     font-weight: 800;
@@ -589,6 +590,7 @@ footer {
     .run-sc,
     .run-inner,
     .bmi-all,
+    .meet-all-img,
     .box-card,
     .sub-unique,
     .container,
@@ -732,6 +734,9 @@ footer {
     .team-meet-sc {
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+    .meet-all-img {
+        padding: 20px 0px 0px 0px;
     }
     /* team section end */
     /* unique section start */

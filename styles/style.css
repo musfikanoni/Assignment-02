@@ -414,6 +414,98 @@ td {
     line-height: 0px;
 }
 /* team meet section end */
+/* unique section start */
+.unique-sc {
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 200px;
+}
+.sub-unique {
+    display: flex;
+}
+.box-div {
+    width: 55%;
+}
+.form-div {
+    width: 50%;
+}
+.box-container {
+    border: 4px solid #707276;
+    border-radius: 10px;
+    padding: 1rem;
+    /* height: 200px; */
+}
+.box-container a {
+    color: #E6533C;
+    text-decoration: none;
+}
+.box-card {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.unique-heading {
+    color: #FFFFFF;
+}
+.form-div {
+    margin-left: 5%;
+}
+.form-header {
+    word-spacing: 5px;
+    color: #FFFFFF;
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.form {
+    margin-top: 50px;
+}
+.name {
+    margin-top: 30px;
+}
+.name .inp1 {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 22px 0px;
+    color: #707276;
+    border: 2px solid #E6533C;
+    font-size: 16px;
+    padding-left: 20px;
+    outline: none;
+}
+.email {
+    margin-top: 30px;
+}
+
+.email .inp2 {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 22px 0px;
+    color: #707276;
+    border: 2px solid #E6533C;
+    font-size: 16px;
+    padding-left: 20px;
+    outline: none;
+}
+.sms {
+    margin-top: 30px;
+}
+.sms .inp3 {
+    padding: 22px 0px 100px 20px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.10);
+    color: #707276;
+    border: 2px solid #E6533C;
+    font-size: 16px;
+    outline: none;
+}
+.submit {
+    margin-top: 30px;
+    cursor: pointer;
+}
+/* unique section end */
 /* footer start */
 footer {
     background-color: #222222;
@@ -497,6 +589,8 @@ footer {
     .run-sc,
     .run-inner,
     .bmi-all,
+    .box-card,
+    .sub-unique,
     .container,
     .ft-2 {
         flex-direction: column;
@@ -518,6 +612,7 @@ footer {
     .hero-sc,
     .bmi-all,
     .team-meet-sc,
+    .unique-sc,
     footer {
         padding: 0px 20px;
     }
@@ -639,9 +734,24 @@ footer {
         padding-bottom: 50px;
     }
     /* team section end */
+    /* unique section start */
+    .form-div {
+        margin-left: 0;
+    }
+    .name .inp1,
+    .email .inp2,
+    .sms .inp3 {
+        width: 95%;
+    }
+    .unique-sc {
+        padding-bottom: 50px;
+    }
+    /* unique section end */
     /* footer start */
     .ft-1,
-    .ft-2 {
+    .ft-2,
+    .box-div,
+    .form-div {
         width: 100%;
     }
     .last-p {

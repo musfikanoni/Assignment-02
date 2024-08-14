@@ -198,7 +198,6 @@ nav ul li a {
     letter-spacing: 0.5px;
 }
 /* header style end */
-
 /* habit section style start */
 .habit-sc {
     background-color: #111111;
@@ -228,6 +227,36 @@ nav ul li a {
     margin-bottom: 0;
 }
 /* habit section style end */
+/* run section style start */
+.run-sc {
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    padding: 25px 200px;
+}
+.run-inner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    padding: 30px 30px;
+    border-radius: 18px;
+}
+.run-text {
+    width: 40%;
+    padding-left: 20px;
+}
+.img {
+    overflow: hidden;
+    border-radius: 18px;
+}
+.run-inner img {
+    Height: 19.5rem;
+    width: 24.5rem;
+    object-fit: cover;
+    transform: scale(2.5) translate(-61px, 12%);
+
+}
+/* run section style end */
 
 
 
@@ -309,22 +338,44 @@ nav ul li a {
         font-size: 15px;
     }
     /* header end */
-        /* habit section start */
-        .habit-sc {
-            padding-top: 0;
-        }
-        .primary-text,
-        .primary-text2 {
-            font-size: 32px;
-        }
-        .circle-img {
-            padding: 5px 100px;
-        }
-        .heading-p {
-            padding: 0px 20px;
-        }
-        .circle-img div {
-            padding-top: 40px;
-        }
-        /* habit section end */
+    /* habit section start */
+    .habit-sc {
+        padding-top: 0;
+    }
+    .primary-text,
+    .primary-text2 {
+        font-size: 32px;
+    }
+    .circle-img {
+        padding: 5px 100px;
+    }
+    .heading-p {
+        padding: 0px 20px;
+    }
+    .circle-img div {
+        padding-top: 40px;
+    }
+    /* habit section end */
+    /* run section start */
+    .run-sc {
+        padding: 50px 20px;
+    }
+    .run-text {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .run-text p {
+        width: 83%;
+    }
+    .run-text button {
+        width: 100%;
+        margin: 10px 0px 24px 0px;
+    }
+    .run-inner img {
+        height: 10.6rem;
+        width: 22.6rem;
+        object-fit: cover;
+        transform: scale(1.4) translate(-47px, 12%);
+    }
+    /* run section end */
 }

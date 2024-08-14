@@ -433,9 +433,9 @@ td {
     width: 50%;
 }
 .box-container {
-    background-color: #222222;
+    /* background-color: #222222; */
     border: 1px solid #39e100;
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 1rem;
 }
 .box-container a {
@@ -457,7 +457,7 @@ td {
     word-spacing: 5px;
     color: #FFFFFF;
     font-size: 2rem;
-    color: #FFFFFF;
+    line-height: 3px;
     font-weight: bold;
 }
 .form {

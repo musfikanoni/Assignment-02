@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f0c0829e22.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="styles/mobile-responsive.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -95,6 +96,69 @@
             </div>
         </section>
         <!-- Run section end here -->
+        <!-- BMI clac section start here -->
+        <section class="bmi-sc">
+            <div class="bmi-text">
+                <div>
+                    <h2 class="primary-text2">BMI Calculator</h2>
+                    <p class="text-p">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
+                </div>
+            </div>
+            <div class="bmi-all">
+                <div class="bmi-chart">
+                    <h3 class="bmi-hd">BMI Calculator Chart</h3>
+                    <table>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </tr>
+                        <tr>
+                            <td class="text-p">Below 18.5</td>
+                            <td class="text-p">Underweight</td>
+                        </tr>
+                        <tr>
+                            <td class="text-p">18.5 - 24.9</td>
+                            <td class="text-p">Healthy</td>
+                        </tr>
+                        <tr>
+                            <td class="text-p">25.0 - 29.9</td>
+                            <td class="text-p">Overweight</td>
+                        </tr>
+                        <tr>
+                            <td class="text-p">30.0 - and Above</td>
+                            <td class="text-p">Obese</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="bmi-calc">
+                    <h3 class="bmi-hd">Calculate your BMI</h3>
+                    <p class="text-p">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                    <div class="input-era">
+                        <div class="first-input">
+                            <input type="text" placeholder="height/cm">
+                            <input type="text" placeholder="weight/Kg">
+                        </div>
+                        <div class="second-input">
+                            <input type="text" placeholder="Age">
+                            <select name="" id="">
+                                <option class="bg" value="">Sex</option>
+                                <option class="bg" value="">Female</option>
+                                <option class="bg" value="">Male</option>
+                            </select>
+                        </div>
+                        <div class="third-input">
+                            <select name="" id="">
+                                <option class="bg" value="">Select an activity factor</option>
+                                <option class="bg" value="">11</option>
+                                <option class="bg" value="">22</option>
+                            </select>
+                        </div>
+                        <input class="primary-btn calc-btn" type="button" value="Calculate">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BMI clac section start end -->
     </main>
     <!-- main end -->
 </body>

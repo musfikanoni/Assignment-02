@@ -424,6 +424,14 @@ td {
     padding: 70px 200px;
 }
 .sub-unique {
+    height: 80vh;
+    background-image: url(../images/unique-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    border-radius: 10px;
     display: flex;
 }
 .box-div {
@@ -433,10 +441,13 @@ td {
     width: 50%;
 }
 .box-container {
-    /* background-color: #222222; */
+    background-color: #222222a2;
     border: 1px solid #39e100;
     border-radius: 12px;
     padding: 1rem;
+}
+.all-card {
+    margin-left: 20px;
 }
 .box-container a {
     color: #39e100;
@@ -450,6 +461,9 @@ td {
 .unique-heading {
     color: #FFFFFF;
 }
+.form {
+    margin-top: 10px;
+}
 .form-div {
     margin-left: 5%;
 }
@@ -460,15 +474,30 @@ td {
     line-height: 3px;
     font-weight: bold;
 }
-.form {
-    margin-top: 50px;
+.nam {
+    display: flex;
+    gap: 5%;
 }
 .name {
-    margin-top: 30px;
+    margin-top: 20px;
+    width: 44.8%;
 }
 .name .inp1 {
-    width: 90%;
-    background-color: rgba(255, 255, 255, 0.10);
+    width: 92.5%;
+    background-color: rgba(8, 8, 8, 0.539);
+    padding: 22px 0px;
+    color: #707276;
+    border: 2px solid #39e100;
+    font-size: 16px;
+    padding-left: 20px;
+    outline: none;
+}
+.last-name {
+    margin-top: 20px;
+}
+.last-name .inp2 {
+    width: 92.2%;
+    background-color: rgba(8, 8, 8, 0.539);
     padding: 22px 0px;
     color: #707276;
     border: 2px solid #39e100;
@@ -477,12 +506,12 @@ td {
     outline: none;
 }
 .email {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
-.email .inp2 {
+.email .inp3 {
     width: 90%;
-    background-color: rgba(255, 255, 255, 0.10);
+    background-color: rgba(8, 8, 8, 0.539);
     padding: 22px 0px;
     color: #707276;
     border: 2px solid #39e100;
@@ -491,19 +520,19 @@ td {
     outline: none;
 }
 .sms {
-    margin-top: 30px;
+    margin-top: 20px;
 }
-.sms .inp3 {
+.sms .inp4 {
     padding: 22px 0px 100px 20px;
     width: 90%;
-    background-color: rgba(255, 255, 255, 0.10);
+    background-color: rgba(8, 8, 8, 0.539);
     color: #707276;
     border: 2px solid #39e100;
     font-size: 16px;
     outline: none;
 }
 .submit {
-    margin-top: 30px;
+    margin-top: 20px;
     cursor: pointer;
 }
 /* unique section end */
@@ -703,7 +732,7 @@ footer {
     }
     .run-inner img {
         height: 10.6rem;
-        width: 22.6rem;
+        width: 100%;
         object-fit: cover;
         transform: scale(1.4) translate(-47px, 12%);
     }
@@ -740,6 +769,9 @@ footer {
     }
     /* team section end */
     /* unique section start */
+    .sub-unique {
+        height: auto;
+    }
     .form-div {
         margin-left: 0;
     }
@@ -748,8 +780,20 @@ footer {
     .sms .inp3 {
         width: 95%;
     }
+    .nam {
+        gap: 30px;
+    }
+    .last-name {
+        width: 40.8%;
+    }
     .unique-sc {
         padding-bottom: 50px;
+    }
+    .all-card {
+        margin: 20px;
+    }
+    .form {
+        margin: 5%;
     }
     /* unique section end */
     /* footer start */
